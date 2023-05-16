@@ -9,6 +9,15 @@ variable afectan esa ubicación de memoria.
 Fuente: https://www.w3schools.com/js/js_variables.asp
 
 ¿Cuál es la diferencia entre declarar e inicializar una variable?
+una variable se puede crear usando la palabra reservada var o la palabra reservada let, let es mas usado actualmente
+por ejemplo una variable que cuente la cantidad de veces que late el corazón durante 10 segundos la podríamos llamar pulso.
+
+let pulso; // esta intrucción es la declaración de la variable
+let pulso=10; // esta instrucción es la inicializació de la variable diez con un valor numérico de 10
+
+
+
+
 ¿Cuál es la diferencia entre sumar números y concatenar strings?
 ¿Cuál operador me permite sumar o concatenar?
 2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
