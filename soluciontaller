@@ -56,18 +56,18 @@ Deudas                        : numérico
 
 3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-let Nombre;// variable de tipo de dato string
-let Apellido;// variable de tipo de dato string
-let nombrecompleto// variable de tipo de dato string
+let Nombre="Felipe";// variable de tipo de dato string
+let Apellido="Cruz";// variable de tipo de dato string
+let nombrecompleto;// variable de tipo de dato string
 let Edad;// variable de tipo de dato numérico
 let correelectronico // variable de tipo de dato string
 let mayordeedad; // variable de tipo de dato booleano
-let Dineroahorrado// variable de tipo de dato numérico
-let Deudas// variable de tipo de dato numérico
+let Dineroahorrado=10000000000000;// variable de tipo de dato numérico
+let deudas=1;// variable de tipo de dato numérico
 
 4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
-Nombre completo (nombre y apellido)
-Dinero real (dinero ahorrado menos deudas)
+let nombrecompleto=Nombre+" "+Apellido;
+let Dineroreal) (dinero ahorrado menos deudas)
 Funciones
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es una función?
