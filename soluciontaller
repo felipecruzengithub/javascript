@@ -67,10 +67,19 @@ let deudas=1;// variable de tipo de dato numérico
 
 4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
 let nombrecompleto=Nombre+" "+Apellido;
-let Dineroreal) (dinero ahorrado menos deudas)
+let Dineroreal=dineroahorrado-deudas;
+
 Funciones
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es una función?
+Una función en JavaScript es un bloque de código diseñado para realizar una tarea en particular. Una función en JavaScript se
+ejecuta cuando algo la invoca (la llama). Una función en JavaScript es similar a un procedimiento: un conjunto de declaraciones 
+que realiza una tarea o calcula un valor, pero para que un procedimiento califique como una función, debe tomar alguna entrada y
+devolver una salida donde haya alguna relación obvia entre la entrada y la salida
+fuente: 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+
+
 ¿Cuándo me sirve usar una función en mi código?
 ¿Cuál es la diferencia entre parámetros y argumentos de una función?
 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
