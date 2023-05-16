@@ -39,23 +39,32 @@ let nota2="cuatro punto 5"
 let suma=nota1+nota2;
 console.log(suma); //en este caso el resultado es cuatro punto 6cuatro punto 5
 
-
-La diferencia con concatena
-
-
-
-
 ¿Cuál operador me permite sumar o concatenar?
+según los ejercicios anteriores el operador para sumar y concatenar es +
+
 2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
-Nombre
-Apellido
-Nombre de usuario en Platzi
-Edad
-Correo electrónico
-Mayor de edad
-Dinero ahorrado
-Deudas
+Nombre de variable            :      Tipo de dato de variable
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Nombre                        : string
+Apellido                      : string
+Nombre de usuario en Platzi   : string
+Edad                          : numérico
+Correo electrónico            : string
+Mayor de edad                 : booleano
+Dinero ahorrado               : numérico
+Deudas                        : numérico
+
 3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+let Nombre;// variable de tipo de dato string
+let Apellido;// variable de tipo de dato string
+let nombrecompleto// variable de tipo de dato string
+let Edad;// variable de tipo de dato numérico
+let correelectronico // variable de tipo de dato string
+let mayordeedad; // variable de tipo de dato booleano
+let Dineroahorrado// variable de tipo de dato numérico
+let Deudas// variable de tipo de dato numérico
+
 4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
 Nombre completo (nombre y apellido)
 Dinero real (dinero ahorrado menos deudas)
