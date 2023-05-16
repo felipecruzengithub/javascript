@@ -105,13 +105,20 @@ console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + n
 };
 nombreyalias();
 
-
-
-
 Condicionales
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es un condicional?
+Es una estructura de desición que permite controlar la ejecución de una o varias instrucciones a partir del cumplimiento de una condición.
+
 ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
+if: se usa para especificar un bloque de código que se ejecutará si una condición especificada es verdadera.
+else: se usa para especificar un bloque de código que se ejecutará si la misma condición es falsa.
+else if: se usa para especificar una nueva condición a evaluar si la primera condición es falsa.
+switch: se usa para seleccionar uno de varios bloques de código que se ejecutarán.
+
+fuente:https://www.javascript.com/learn/conditionals
+
+
 ¿Puedo combinar funciones y condicionales?
 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
 const tipoDeSuscripcion = "Basic";
