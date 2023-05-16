@@ -15,10 +15,36 @@ por ejemplo una variable que cuente la cantidad de veces que late el corazón du
 let pulso; // esta intrucción es la declaración de la variable
 let pulso=10; // esta instrucción es la inicializació de la variable diez con un valor numérico de 10
 
-
-
-
 ¿Cuál es la diferencia entre sumar números y concatenar strings?
+
+en javascript usemos el ejemplo de una operación de sumar dos valores llamados notas
+nota1=4.6
+nota2=4.5
+nota3=4.2
+nota4=1.2
+si requiero saber el promedio de las notas sumo todas las notas y ese resultado lo divido entre la cantidad de notas en teste caso
+son cuatro notas
+entonces creamos las variables para las notas
+
+let nota1=4.6;
+let nota2=4.5;
+let nota3=4.2;
+let nota4=1.2;
+let promedio=(nota1+nota2+nota3+nota4)/4
+console.log(promedio); en este caso el resultado es 3.625
+
+Pero si usamos comillas que se usan para valores de cadenas de texto o strings entonces el resultado será:
+let nota1="cuatro punto 6"
+let nota2="cuatro punto 5"
+let suma=nota1+nota2;
+console.log(suma); //en este caso el resultado es cuatro punto 6cuatro punto 5
+
+
+La diferencia con concatena
+
+
+
+
 ¿Cuál operador me permite sumar o concatenar?
 2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
 Nombre
