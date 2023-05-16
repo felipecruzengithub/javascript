@@ -1,6 +1,13 @@
 Variables y operaciones
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es una variable y para qué sirve?
+R./
+Una variable en JavaScript es un contenedor para almacenar valores que pueden ser reutilizados y cambiados durante la ejecución
+del programa. Es la unidad básica de almacenamiento en un programa. El valor almacenado en una variable puede cambiar durante la 
+ejecución del programa. Una variable es solo un nombre dado a una ubicación de memoria, todas las operaciones realizadas en la
+variable afectan esa ubicación de memoria.
+Fuente: https://www.w3schools.com/js/js_variables.asp
+
 ¿Cuál es la diferencia entre declarar e inicializar una variable?
 ¿Cuál es la diferencia entre sumar números y concatenar strings?
 ¿Cuál operador me permite sumar o concatenar?
