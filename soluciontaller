@@ -79,9 +79,14 @@ devolver una salida donde haya alguna relación obvia entre la entrada y la sali
 fuente: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 
-
 ¿Cuándo me sirve usar una función en mi código?
+Cuando deba reusar bloques de instrucciones que requieran la misma información o de variables dentro de un programa, una 
+función es muy util para evitar repetir información.
+
 ¿Cuál es la diferencia entre parámetros y argumentos de una función?
+parámetros son variables que se declaran en la estructura de la función y los argumentos ya son valores que se asignarían a esos parámetros
+
+
 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 const name = "Juan David";
 const lastname = "Castro Gallego";
@@ -89,6 +94,20 @@ const completeName = name + lastname;
 const nickname = "juandc";
 
 console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
+function nombreyalias()
+{
+const name = "Juan David";
+const lastname = "Castro Gallego";
+const completeName = name + lastname;
+const nickname = "juandc";
+
+console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
+};
+nombreyalias();
+
+
+
+
 Condicionales
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es un condicional?
