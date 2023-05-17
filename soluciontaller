@@ -188,9 +188,12 @@ function verificarsuscripcion (tipoDeSuscripcion)
 
 Ciclos
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+
 ¿Qué es un ciclo?
+
 Un ciclo en JavaScript es una forma rápida y fácil de hacer algo repetidamente. Los ciclos ofrecen una manera de ejecutar un bloque 
 de código un número determinado de veces 1. Puedes pensar en un ciclo como una versión informatizada del juego en el que le dices 
+
 ¿Qué tipos de ciclos existen en JavaScript?
 
 for: repite un bloque de código un número determinado de veces.
@@ -200,7 +203,13 @@ while: recorre un bloque de código mientras una condición especificada sea ver
 do/while: también recorre un bloque de código mientras una condición especificada sea verdadera.
 
 ¿Qué es un ciclo infinito y por qué es un problema?
+
+Es un ciclo que se repite de manera indefinida, el problema es que puede ocupar espacio de memoria y tiempo de procesamiento necesario
+para otras operaciones.
+
 ¿Puedo mezclar ciclos y condicionales?
+Si
+
 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
 for (let i = 0; i < 5; i++) {
     console.log("El valor de i es: " + i);
