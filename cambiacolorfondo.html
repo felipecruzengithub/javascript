@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Cambiar color de fondo</title>
+	<script>
+		var colores = ["green", "blue", "red", "yellow"];
+		var indiceColor = 0;
+		
+		function cambiarColor() {
+			document.body.style.backgroundColor = colores[indiceColor];
+			indiceColor = (indiceColor + 1) % colores.length;
+		}
+	</script>
+</head>
+<body>
+	<button onclick="cambiarColor()">Cambiar color de fondo</button>
+</body>
+</html>
