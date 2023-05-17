@@ -251,19 +251,37 @@ alert("Felicitaciones! Su respuesta es correcta.");
 Lists
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es un array?
-Un arreglo (array) en JavaScript es un objeto global que se utiliza para almacenar una colección de elementos. Los arreglos son objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. Tanto la longitud como el tipo de los elementos de un arreglo son variables. Los elementos de un arreglo pueden ser de cualquier tipo, incluyendo números, cadenas, objetos e incluso otros arreglos.
+Un arreglo (array) en JavaScript es un objeto global que se utiliza para almacenar una colección de elementos. Los arreglos son objetos 
+similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. Tanto la longitud
+como el tipo de los elementos de un arreglo son variables. Los elementos de un arreglo pueden ser de cualquier tipo, incluyendo números,
+cadenas, objetos e incluso otros arreglos.
 
 Aquí hay un ejemplo de cómo crear un arreglo en JavaScript:
 
 let miArreglo = [1, 2, 3, 4];
-En este ejemplo, hemos creado un arreglo llamado miArreglo que contiene cuatro elementos: los números 1, 2, 3 y 4. Podemos acceder a los elementos del arreglo utilizando índices numéricos, comenzando desde cero. Por ejemplo, para acceder al primer elemento del arreglo (el número 1), podemos usar la siguiente sintaxis:
+En este ejemplo, hemos creado un arreglo llamado miArreglo que contiene cuatro elementos: los números 1, 2, 3 y 4. 
+Podemos acceder a los elementos del arreglo utilizando índices numéricos, comenzando desde cero. Por ejemplo, para acceder al primer
+elemento del arreglo (el número 1), podemos usar la siguiente sintaxis:
 
 let primerElemento = miArreglo[0];
-Los arreglos en JavaScript también tienen varios métodos útiles para agregar, eliminar y manipular elementos. Por ejemplo, el método push() se puede utilizar para agregar un nuevo elemento al final del arreglo:
+Los arreglos en JavaScript también tienen varios métodos útiles para agregar, eliminar y manipular elementos. Por ejemplo, 
+el método push() se puede utilizar para agregar un nuevo elemento al final del arreglo:
 
 miArreglo.push(5);
 Después de ejecutar este código, el arreglo miArreglo contendrá cinco elementos: 1, 2, 3, 4 y 5.
+
+
 ¿Qué es un objeto?
+Un objeto en JavaScript es una colección desordenada de datos relacionados, de tipos primitivos o de referencia, en forma de pares “clave: valor”.
+Estas claves pueden ser variables o funciones y se llaman propiedades y métodos, respectivamente, en el contexto de un objeto.
+
+Los objetos en JavaScript son el tipo de datos más importante y forman los bloques de construcción para el JavaScript moderno. Estos objetos son 
+bastante diferentes de los tipos de datos primitivos de JavaScript (Number, String, Boolean, null, undefined y symbol) en el sentido de que estos tipos de datos primitivos 
+almacenan un solo valor cada uno (dependiendo de sus tipos).
+
+fuente: 
+https://www.geeksforgeeks.org/objects-in-javascript/
+
 ¿Cuándo es mejor usar objetos o arrays?
 ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
