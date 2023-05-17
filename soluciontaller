@@ -214,16 +214,55 @@ Si
 for (let i = 0; i < 5; i++) {
     console.log("El valor de i es: " + i);
 }
+R/
+let i = 0; 
+while(i < 5) {
+
+    console.log("El valor de i es: " + i);
+i++;
+}
+
 
 for (let i = 10; i >= 2; i--) {
     console.log("El valor de i es: " + i);
 }
+
+R./
+
+let i = 10; 
+while(i >= 2) {
+
+    console.log("El valor de i es: " + i);
+i--;
+}
+
 3️⃣ Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.
 💡 Pista: puedes usar la función prompt de JavaScript.
+let respuesta = prompt("Cuanto es 2 + 2?");
 
-Listas
+while (respuesta != 4) {
+    alert("Incorrecto. Por favor trate nuevamente");
+    respuesta = prompt("Cuanto es 2 + 2?");
+}
+
+alert("Felicitaciones! Su respuesta es correcta.");
+
+
+Lists
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es un array?
+Un arreglo (array) en JavaScript es un objeto global que se utiliza para almacenar una colección de elementos. Los arreglos son objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. Tanto la longitud como el tipo de los elementos de un arreglo son variables. Los elementos de un arreglo pueden ser de cualquier tipo, incluyendo números, cadenas, objetos e incluso otros arreglos.
+
+Aquí hay un ejemplo de cómo crear un arreglo en JavaScript:
+
+let miArreglo = [1, 2, 3, 4];
+En este ejemplo, hemos creado un arreglo llamado miArreglo que contiene cuatro elementos: los números 1, 2, 3 y 4. Podemos acceder a los elementos del arreglo utilizando índices numéricos, comenzando desde cero. Por ejemplo, para acceder al primer elemento del arreglo (el número 1), podemos usar la siguiente sintaxis:
+
+let primerElemento = miArreglo[0];
+Los arreglos en JavaScript también tienen varios métodos útiles para agregar, eliminar y manipular elementos. Por ejemplo, el método push() se puede utilizar para agregar un nuevo elemento al final del arreglo:
+
+miArreglo.push(5);
+Después de ejecutar este código, el arreglo miArreglo contendrá cinco elementos: 1, 2, 3, 4 y 5.
 ¿Qué es un objeto?
 ¿Cuándo es mejor usar objetos o arrays?
 ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
