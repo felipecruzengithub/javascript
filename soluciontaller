@@ -283,7 +283,44 @@ fuente:
 https://www.geeksforgeeks.org/objects-in-javascript/
 
 ¿Cuándo es mejor usar objetos o arrays?
+Es mejor usar objetos cuando los elementos de la colección a describir mediante le código, tiene distintos valores y funcionalidades.
+En general, se debe usar un objeto cuando se desea almacenar una colección de elementos con claves de cadena (texto) y un arreglo cuando se
+desea almacenar una colección de elementos con claves numéricas 1. Los objetos proporcionan una búsqueda rápida de pares clave-valor, mientras 
+que los arreglos son útiles cuando el orden de los elementos en la colección es importante 2.
+
+Por ejemplo, si desea almacenar una lista de elementos en un orden específico y realizar operaciones como agregar o eliminar elementos del principio
+o del final de la lista, un arreglo sería una buena opción. Por otro lado, si desea almacenar una colección de elementos con claves únicas y acceder 
+rápidamente a los valores asociados con esas claves, un objeto sería una mejor opción.
+
+En resumen, la elección entre usar un objeto o un arreglo depende de la estructura y el uso previsto de los datos que desea almacenar.
+
+https://stackoverflow.com/questions/7803262/difference-between-array-and-object-in-javascript-or-array-vs-object
+
 ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+Sí, puedes mezclar arreglos con objetos y objetos con arreglos en JavaScript. Los elementos de un arreglo pueden ser de cualquier tipo, incluyendo objetos. 
+De manera similar, los valores de las propiedades de un objeto pueden ser de cualquier tipo, incluyendo arreglos.
+
+Aquí hay un ejemplo de cómo crear un arreglo que contenga objetos:
+
+let miArreglo = [
+    { nombre: "Juan", edad: 25 },
+    { nombre: "María", edad: 32 },
+    { nombre: "Pedro", edad: 40 }
+];
+En este ejemplo, hemos creado un arreglo llamado miArreglo que contiene tres elementos, cada uno de los cuales es un objeto con dos propiedades: nombre y edad.
+
+También puedes crear un objeto que contenga arreglos como valores de sus propiedades. Aquí hay un ejemplo:
+
+let miObjeto = {
+    nombres: ["Juan", "María", "Pedro"],
+    edades: [25, 32, 40]
+};
+En este ejemplo, hemos creado un objeto llamado miObjeto que tiene dos propiedades: nombres y edades. Cada una de estas propiedades tiene como valor un arreglo
+que contiene tres elementos.
+
+En resumen, puedes mezclar arreglos y objetos en JavaScript de muchas maneras diferentes para crear estructuras de datos complejas que se adapten a tus necesidades.
+
 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
+
 3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
