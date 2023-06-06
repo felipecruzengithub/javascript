@@ -322,5 +322,28 @@ En resumen, puedes mezclar arreglos y objetos en JavaScript de muchas maneras di
 
 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 
+function imprimirarreglo(arreglof)
+{
+console.log(arreglof[0]);
+};
+const arreglo=[0,1,2,3,4];
+imprimirarreglo(arreglo);
+
 3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
+function imprimirarreglo(arreglof)
+	{
+	for(i=0;i<arreglof.length;+i++)
+		{
+		console.log(arreglof[i]);
+		}
+	};
+	const arreglo=[0,1,2,3,4];
+	imprimirarreglo(arreglo);
+
+
+
 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+
+
+
+
