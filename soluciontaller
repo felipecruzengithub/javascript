@@ -345,5 +345,22 @@ function imprimirarreglo(arreglof)
 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
 
 
-
+let miObjeto =
+	{
+	1:{numero:1,
+	   respuesta:"S",
+	   color:"verde"
+	   },
+	2:{numero:2,
+ 	   respuesta:"N",
+	   color:"verde"
+	  },
+	3:{numero:3,
+	   respuesta:"S",
+	   color:"rojo"
+	   }
+	};
+for (let key in miObjeto)
+	{console.log(miObjeto)
+	}
 
