@@ -1,0 +1,12 @@
+Paginas de aprendizaje de javascript
+https://app.aluracursos.com/course/logica-programacion-sumergete-programacion-javascript/task/85960
+
+algunos ejercicios
+https://github.com/alura-es-cursos/desafios-logica-programacion/blob/main/README.md
+
+que es javqascript
+https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+
+guia de aprendizaje de javascript en alura
+https://www.aluracursos.com/blog/guia-de-javascript
+
