@@ -10,3 +10,5 @@ https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaS
 guia de aprendizaje de javascript en alura
 https://www.aluracursos.com/blog/guia-de-javascript
 
+w3schools
+https://www.w3schools.com/js/default.asp
