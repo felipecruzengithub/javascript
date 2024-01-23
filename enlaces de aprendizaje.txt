@@ -12,3 +12,6 @@ https://www.aluracursos.com/blog/guia-de-javascript
 
 w3schools
 https://www.w3schools.com/js/default.asp
+
+aprendizaje con pagina msdn mozilla
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random
